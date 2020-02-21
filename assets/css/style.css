@@ -1,17 +1,26 @@
+
+/* column 1 of portfolio*/
 .content{
     height: 200px;
     width: auto;
     
 }
+/* column 2 of portfolio  */
 .content2{
     height: 200px;
     width: auto;
 }
-
+/* protfolio area keeps images in the middle and allows them to scale with mobile  */
 .portfolio{
     margin-left: 45%;
     margin-right: 35%;
 }
+/* background coloring */
 body{
-    background-image: linear-gradient(to bottom right, #9c9c9c,#ECE8E7);
+    background-image: linear-gradient(to bottom right, #ECE8E7);
+}
+
+.main-section{
+    font-family: 'Prata' ;
+    margin:10%
 }
