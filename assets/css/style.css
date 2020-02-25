@@ -40,12 +40,9 @@
 }
 /* protfolio area keeps images in the middle and allows them to scale with mobile  */
 .portfolio{
-    margin-left: 25%;
-    margin-right: 25%; 
+    margin-left: 20%;
+    margin-right: 20%; 
     margin-top: 5%;
-    align-items: center;
-    align-content: center;
-    clear: both;
 }
 /* background coloring */
 body{
