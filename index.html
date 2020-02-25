@@ -3,24 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta >
+  <meta>
   <title>Celia Ettinger|Portfolio </title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/21f02cae4e.js" crossorigin="anonymous"></script>
   <!-- favicon -->
-  
-<!-- google fonts -->
+
+  <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<script src="./assets/Scripts/Javascript.js"></script>
+  <script src="./assets/Scripts/Javascript.js"></script>
 
 </head>
+
 <body>
   <header id="masthead">
     <div class="container">
@@ -35,23 +36,22 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 
   <!-- portfolio  -->
 
-  <div 
-  class="main-container 
+  <div class="main-container 
   portfolio">
-  <h1>Portfolio</h1>
+    <h1>Portfolio</h1>
     <!-- set to 2 per row -->
     <!-- row1 -->
-    <img class="content" src="./assets/images/pikachu.jpg" onclick= "Portfoliovid()">
-    <img class="content2" src="./assets/images/rowlet.jpg" onclick="Portfoliovid()">
+    <img class="content" src="./assets/images/pikachu.jpg">
+    <img class="content2" src="./assets/images/rowlet.jpg">
     <!-- row2 -->
-    <img class="content" src="./assets/images/pikachu.jpg" onclick="Portfoliovid()">
-    <img class="content2" src="./assets/images/rowlet.jpg" onclick="Portfoliovid()">
+    <img class="content" src="./assets/images/pikachu.jpg">
+    <img class="content2" src="./assets/images/rowlet.jpg">
 
   </div>
-  <button onclick="Portfoliovid()">test</button>
+  <div id="like_button_container"><button>here</button></div>
 
 
-<!-- 
+  <!-- ex of modal
   <div id="main-container" class="container">
     <section class="main-section">
       <h2>placeholder for modal</h2>
@@ -61,19 +61,34 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
       </iframe>
     </section>
   </div> -->
+
+  <!-- React scripts -->
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <!-- <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script> -->
+
+  <!-- Load our React component. -->
+  <script src="assets/Scripts/Javascript.js"></script>
 </body>
 <footer>
-  <div class="container">  
-    © 2020 CELIA ETTINGER. ALL RIGHTS RESERVED. 
+  <div class="container">
+    © 2020 CELIA ETTINGER. ALL RIGHTS RESERVED.
     <br>
     <a href="https://www.linkedin.com/in/celia-ettinger-61093b94/">
       <i class="fab fa-linkedin fa-3x "></i></a>
-      <i class="fab fa-instagram-square fa-3x"></i>
+    <i class="fab fa-instagram-square fa-3x"></i>
   </div>
 </footer>
 <!-- <script src="./assets/Scripts/Javascript.js"></script> -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
 </html>
