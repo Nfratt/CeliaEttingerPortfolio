@@ -1,12 +1,21 @@
 /* logo at top */
 #logo{
     font-family: 'Prata' ;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 2%;
+    margin-left: 25%;
+
 }
 /* Navbar */
   nav {
     font-family: 'Prata' ;
     float: left;
     margin-top: 25px;
+    font-size:150% ;
+    font-weight: bold;
+    
+    
     
   }
   
@@ -40,20 +49,26 @@
 }
 /* protfolio area keeps images in the middle and allows them to scale with mobile  */
 .portfolio{
-    margin-left: 20%;
+    margin-left: 30%;
     margin-right: 20%; 
     margin-top: 5%;
+    overflow: auto;
 }
 /* background coloring */
 body{
     background-image: linear-gradient(to bottom right, #ECE8E7,#fffefb);
+  ;
 }
 
-.main-container{
+#main-container{
+    margin: 5%;
+    height: 500px;
+    background-color: whitesmoke;
+    font-family: 'Prata' ;
     padding: 2%;
-    
-
+ 
 }
+
 
 
 

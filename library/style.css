@@ -1,12 +1,18 @@
 /* logo at top */
 #logo{
     font-family: 'Prata' ;
+    font-size:150% ;
+    font-weight: bold;
+    margin: 2%;
+    margin-left: 25%;
 }
 /* Navbar */
   nav {
     font-family: 'Prata' ;
     float: left;
     margin-top: 25px;
+    font-size:150% ;
+    font-weight: bold;
     
   }
   
@@ -33,11 +39,21 @@ body{
 
 #main-container{
     margin: 2%;
-    border: 1px black solid;
+    background-color: white;
+    /* border: 1px black solid; */
 }
 iframe{
   margin-left: 2%;
   ;
+}
+#nextbtn{float: right;
+margin-top: 1%;
+font-family: 'Prata';
+color: black ;
+background-color:lightgray;
+border-radius: 10px;
+height: 50px;
+
 }
 
 
