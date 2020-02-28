@@ -1,11 +1,10 @@
 /* logo at top */
 #logo{
     font-family: 'Prata' ;
+    font-size:150% ;
     font-weight: bold;
-    font-size: x-large;
     margin: 2%;
     margin-left: 25%;
-
 }
 /* Navbar */
   nav {
@@ -14,7 +13,9 @@
     margin-top: 25px;
     font-size:150% ;
     font-weight: bold;
+    
   }
+  
   nav a {
     display: inline-block;
     padding-left: 15px;
@@ -24,45 +25,36 @@
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
+  
   nav a:first-child {
     border-left: 0 none;
   }
 
-/* column 1 of portfolio*/
-.content{
-    height: 200px;
-    width: 420px;
-    margin: 3px;
-    
-}
-/* column 2 of portfolio  */
-.content2{
-    height:200px;
-    width: 420px;
-    /* width: auto; */
-}
-/* protfolio area keeps images in the middle and allows them to scale with mobile  */
-.portfolio{
-    margin-left: 30%;
-    margin-right: 20%; 
-    margin-top: 5%;
-    overflow: auto;
-}
+
+
 /* background coloring */
 body{
     background-image: linear-gradient(to bottom right, #ECE8E7,#fffefb);
-  ;
 }
 
 #main-container{
-    margin: 5%;
-    height: 500px;
-    background-color: whitesmoke;
-    font-family: 'Prata' ;
-    padding: 2%;
- 
+    margin: 2%;
+    background-color: white;
+    /* border: 1px black solid; */
 }
+iframe{
+  margin-left: 2%;
+  ;
+}
+#nextbtn{float: right;
+margin-top: 1%;
+font-family: 'Prata';
+color: black ;
+background-color:lightgray;
+border-radius: 10px;
+height: 50px;
 
+}
 
 
 
