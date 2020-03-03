@@ -2,9 +2,11 @@
 #logo{
     font-family: 'Prata' ;
     font-weight: bold;
-    font-size: x-large;
+    font-size: xX-large;
     margin: 2%;
-    margin-left: 25%;
+    color: darkgray;
+    margin-left: 20%;
+
 
 }
 /* Navbar */
@@ -12,41 +14,49 @@
     font-family: 'Prata' ;
     float: left;
     margin-top: 25px;
-    font-size:150% ;
-    font-weight: bold;
+    font-size:200% ;
+    /* font-weight: bold; */
+    color: darkgray;
   }
   nav a {
+    font-family: 'Prata' ;
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: black;
+    color: darkgray;
     text-decoration: none;
     border-left: 1px solid #efefef;
+    ;
   }
   nav a:first-child {
+    font-family: 'Prata' ;
     border-left: 0 none;
   }
 
 /* column 1 of portfolio*/
 .content{
-    height: 250px;
-    width: 420px;
+    height: 300px;
+    width: 470px;
     margin: 3px;
     
 }
 /* column 2 of portfolio  */
 .content2{
-    height:250px;
-    width: 420px;
+    height:300px;
+    width: 470px;
     /* width: auto; */
 }
 /* protfolio area keeps images in the middle and allows them to scale with mobile  */
 .portfolio{
-    margin-left: 30%;
+    margin-left: 25%;
     margin-right: 20%; 
     margin-top: 5%;
     overflow: auto;
+    background-color: whitesmoke;
+}
+.header1{
+  margin-left: 37%;
 }
 /* background coloring */
 body{
@@ -56,13 +66,18 @@ body{
 
 #main-container{
     margin: 5%;
-    height: 500px;
+    height: 340px;
     background-color: whitesmoke;
     font-family: 'Prata' ;
     padding: 2%;
+    margin-left: 20%;
+    /* margin-right: ; */
  
 }
-
+.about{
+  width: 700px;
+  margin-left: 30%;
+}
 
 
 
@@ -74,7 +89,7 @@ footer {
     text-align: center;
     background: lightgray;
     border-top: 25px solid 	
-    #aaf0d1 ;
+    #FAD7D7 ;
     height: 150px;
     
   }
