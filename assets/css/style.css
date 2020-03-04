@@ -2,13 +2,13 @@
 #logo{
     font-family: 'Prata' ;
     font-size: xX-large;
-    color: darkgray;
+    color: #5F5F5F;
     text-align: center;
     margin-top: 2%;
     text-decoration: underline;
 }  
 #logo:hover{
-  color:#C89B9B ;
+  color:#EABDBD ;
 }
 /* Navbar */
   nav {
@@ -16,11 +16,11 @@
     margin-top: 25px;
     font-size:200% ;
   text-align: center;
-    color: darkgray;
+    color: #5F5F5F;
     
   }
   nav a:hover{
-    color: #C89B9B;
+    color: #EABDBD;
   }
   nav a {
     font-family: 'Prata' ;
@@ -28,7 +28,7 @@
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: darkgray;
+    color: #5F5F5F;
     text-decoration: none;
     border-left: 1px solid #efefef;
     ;
@@ -72,7 +72,7 @@ body{
 #main-container{
   margin:5%;
     height: 250px;
-    background-color: whitesmoke;
+    background-image: linear-gradient(to bottom right, #fffefb,#ECE8E7);
     font-family: 'Prata' ;
     padding: 2%;
     margin-left: 20%;

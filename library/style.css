@@ -2,24 +2,25 @@
 #logo{
   font-family: 'Prata' ;
   font-size: xX-large;
-  color: darkgray;
+  color: #5F5F5F;
   text-align: center;
   margin-top: 2%;
   text-decoration: underline;
+  font-weight: 300;
 }  
 #logo:hover{
-  color:#C89B9B ;
+  color:#EABDBD ;
 }
 nav {
   font-family: 'Prata' ;
   margin-top: 25px;
   font-size:200% ;
-text-align: center;
-  color: darkgray;
+  text-align: center;
+  color: #5F5F5F;
   
 }
 nav a:hover{
-  color: #C89B9B;
+  color: #EABDBD;
 }
 nav a {
   font-family: 'Prata' ;
@@ -27,7 +28,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: darkgray;
+  color: #5F5F5F;
   text-decoration: none;
   border-left: 1px solid #efefef;
   ;
@@ -62,12 +63,17 @@ border-radius: 10px;
 height: 50px;
 
 }
-
+.watchmore{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:65%;
+}
 /* column 1 of portfolio*/
 .content{
   height: 200px;
   width: 300px;
-  margin: 3px;
+
 }
 .content:hover{
 opacity: .5;
@@ -76,8 +82,8 @@ opacity: .5;
 /* column 2 of portfolio  */
 .content2{
   height:200px;
-  width: 350px;
-  /* width: auto; */
+  width: 300px;
+
 }
 .content2:hover{
 opacity: .5;
