@@ -33,12 +33,17 @@
     border-left: 1px solid #efefef;
     ;
   }
+  /* .landingconainter{
+    margin-left:5%;
+    background-color: black;
+    margin-right:5% ;
+  } */
 
 /* column 1 of portfolio*/
 .content{
     height: 300px;
     width: 470px;
-    margin: 3px;
+margin-bottom: 3px;
 }
 .content:hover{
 opacity: .5;
@@ -48,7 +53,7 @@ opacity: .5;
 .content2{
     height:300px;
     width: 470px;
-    /* width: auto; */
+    margin-bottom: 3px;
 }
 .content2:hover{
   opacity: .5;
@@ -57,11 +62,9 @@ opacity: .5;
 /* protfolio area keeps images in the middle and allows them to scale with mobile  */
 .portfolio{
     margin-left: 25%;
-    margin-right: 20%; 
-    margin-top: 2%;
-    overflow: auto;
-    background-color: whitesmoke;
-}
+    margin-right: 25%; 
+    margin-top: 1%;
+    overflow: auto;}
 
 /* background coloring */
 body{
