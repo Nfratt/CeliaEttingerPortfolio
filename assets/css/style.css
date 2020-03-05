@@ -1,22 +1,26 @@
 /* logo at top */
 #logo{
     font-family: 'Prata' ;
-    font-weight: bold;
     font-size: xX-large;
-    margin: 2%;
-    color: darkgray;
-    margin-left: 20%;
-
-
+    color: #5F5F5F;
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: underline;
+}  
+#logo:hover{
+  color:#EABDBD ;
 }
 /* Navbar */
   nav {
     font-family: 'Prata' ;
-    float: left;
     margin-top: 25px;
     font-size:200% ;
-    /* font-weight: bold; */
-    color: darkgray;
+  text-align: center;
+    color: #5F5F5F;
+    
+  }
+  nav a:hover{
+    color: #EABDBD;
   }
   nav a {
     font-family: 'Prata' ;
@@ -24,14 +28,10 @@
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: darkgray;
+    color: #5F5F5F;
     text-decoration: none;
     border-left: 1px solid #efefef;
     ;
-  }
-  nav a:first-child {
-    font-family: 'Prata' ;
-    border-left: 0 none;
   }
 
 /* column 1 of portfolio*/
@@ -39,7 +39,10 @@
     height: 300px;
     width: 470px;
     margin: 3px;
-    
+}
+.content:hover{
+opacity: .5;
+
 }
 /* column 2 of portfolio  */
 .content2{
@@ -47,17 +50,19 @@
     width: 470px;
     /* width: auto; */
 }
+.content2:hover{
+  opacity: .5;
+
+}
 /* protfolio area keeps images in the middle and allows them to scale with mobile  */
 .portfolio{
     margin-left: 25%;
     margin-right: 20%; 
-    margin-top: 5%;
+    margin-top: 2%;
     overflow: auto;
     background-color: whitesmoke;
 }
-.header1{
-  margin-left: 37%;
-}
+
 /* background coloring */
 body{
     background-image: linear-gradient(to bottom right, #ECE8E7,#fffefb);
@@ -65,18 +70,25 @@ body{
 }
 
 #main-container{
-    margin: 5%;
-    height: 340px;
-    background-color: whitesmoke;
+  margin:5%;
+    height: 250px;
+    background-image: linear-gradient(to bottom right, #fffefb,#ECE8E7);
     font-family: 'Prata' ;
     padding: 2%;
     margin-left: 20%;
-    /* margin-right: ; */
  
 }
+/* ABOUT page */
 .about{
-  width: 700px;
-  margin-left: 30%;
+  width: 80%;
+text-align: center;
+
+}
+
+/* contact page */
+.main-section{
+  text-align: center;
+  width: 80%;
 }
 
 
@@ -99,4 +111,7 @@ footer {
   footer i{
       color: black;
       margin: 1%;
+  }
+  i:hover{
+    color: #C89B9B;
   }
