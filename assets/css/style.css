@@ -41,7 +41,7 @@
 
 /* column 1 of portfolio*/
 .content{
-    height: 300px;
+    height: 270px;
     width: 470px;
 margin-bottom: 3px;
 }
@@ -51,7 +51,7 @@ opacity: .5;
 }
 /* column 2 of portfolio  */
 .content2{
-    height:300px;
+    height:270px;
     width: 470px;
     margin-bottom: 3px;
 }
