@@ -1,5 +1,6 @@
 # CeliaEttingerPortfolio
-Professional portfolio for CeliaEttinger
+Professional portfolio for Celia Ettinger
+Celia is currently a Video producer at Badger and Winters 
 
 Rights to all images belong to appropreate copyright holders
 i make no claim of ownership 
