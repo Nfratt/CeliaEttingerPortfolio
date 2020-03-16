@@ -41,9 +41,9 @@
 
 /* column 1 of portfolio*/
 .content{
-    height: 300px;
+    height: 270px;
     width: 470px;
-margin-bottom: 3px;
+    margin-bottom: 3px;
 }
 .content:hover{
 opacity: .5;
@@ -51,7 +51,7 @@ opacity: .5;
 }
 /* column 2 of portfolio  */
 .content2{
-    height:300px;
+    height:270px;
     width: 470px;
     margin-bottom: 3px;
 }
@@ -59,12 +59,25 @@ opacity: .5;
   opacity: .5;
 
 }
+.content3{
+  height: 270px;
+  width: 470px;
+  margin-bottom:3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.content3:hover{  
+  opacity: .5;
+  }
 /* protfolio area keeps images in the middle and allows them to scale with mobile  */
 .portfolio{
-    margin-left: 25%;
-    margin-right: 25%; 
-    margin-top: 1%;
-    overflow: auto;}
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 1%;}
 
 /* background coloring */
 body{
@@ -74,7 +87,7 @@ body{
 
 #main-container{
   margin:5%;
-    height: 250px;
+    height: 300px;
     background-image: linear-gradient(to bottom right, #fffefb,#ECE8E7);
     font-family: 'Prata' ;
     padding: 2%;
@@ -97,7 +110,7 @@ text-align: center;
 
 
 footer {
-    margin-top: 13%;
+    margin-top: 11%;
     clear: both;
     color: BLACK;
     font-family: 'Prata';
