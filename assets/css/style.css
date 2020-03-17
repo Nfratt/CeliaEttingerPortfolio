@@ -36,9 +36,13 @@
 
 /* column 1 of portfolio*/
 .content{
-    height: 270px;
-    width: 470px;
+    height: 40%;
+    width: 49%;
     margin-bottom: 3px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+   */
 }
 .content:hover{
 opacity: .5;
@@ -46,17 +50,22 @@ opacity: .5;
 }
 /* column 2 of portfolio  */
 .content2{
-    height:270px;
-    width: 470px;
+    height:40%;
+    width: 49%;
     margin-bottom: 3px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+  
+    
 }
 .content2:hover{
   opacity: .5;
 
 }
 .content3{
-  height: 270px;
-  width: 470px;
+  height: 40%;
+  width: 59%;
   margin-bottom:3px;
   display: block;
   margin-left: auto;
@@ -72,7 +81,8 @@ opacity: .5;
   width: 50%;
   margin-left: auto;
   margin-right: auto; 
-  margin-top: 1%;}
+
+}
 
 /* background coloring */
 body{
