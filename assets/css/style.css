@@ -90,7 +90,7 @@ body{
   ;
 }
 
-#main-container{
+#mc2{
   margin:5%;
     height: 300px;
     background-image: linear-gradient(to bottom right, #fffefb,#ECE8E7);
@@ -126,7 +126,7 @@ footer {
     height: 150px;
     
   }
-  footer .container{
+  footer .fcontainer{
       margin-top: 2%;
   }
   footer i{
