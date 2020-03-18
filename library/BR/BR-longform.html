@@ -6,8 +6,6 @@
     <title> Celia Ettinger | BEAUTYREST</title>
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="../style.css">
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/21f02cae4e.js" crossorigin="anonymous"></script>
     <!-- animate Css  -->
@@ -19,6 +17,12 @@
     <link rel="manifest" href="../../assets/images/favicon/site.webmanifest">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+    <!-- Boootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../../assets/Scripts/Javascript.js"></script>
+
 
 </head>
 
@@ -35,7 +39,7 @@
     </header>
     <H1 id="logo"> <a href="../../index.html" id="logo">CELIA ETTINGER</a></H1>
     <!-- video containter -->
-    <div id="main-container" class="container">
+    <div id="mc2" class="contain">
         <h1 style="text-align: center;">BEAUTYREST</h1>
         <h2 style="text-align: center;">Beautyrest Sleep First Class Longform</h2>
         <section class="main-section">
@@ -57,33 +61,55 @@
                 <p>Mix:</p>
                 <p>Music:</p>
             </div>
-
     </div>
 
     <div class="watchmore">
         <h1>Watch More BEAUTYREST</h1>
-        <hr>
+        <hr style="width: 100%; color: black; height: 1px; background-color:lightgrey;" />
         <!-- videos -->
         <!-- set to 2 per row -->
         <!-- row1 -->
         <a href="./firstclass30.html">
             <img class="content" src="../../assets/images/BR/BR-SleepFirstClass30.JPG"></a>
     </div>
-    <div class="watchmore">
+
+    <div class="seemore">
         <h1>View More BEAUTYREST</h1>
-        <hr>
+        <hr style="width: 100%; color: black; height: 1px; background-color:lightgrey;" />
+        <br>
         <!-- images -->
         <!-- set to 2 per row -->
         <!-- row1 -->
-        <img class="calicontent" src="../../assets/images/BR/Screen Shot 2020-03-17 at 4.03.55 PM.png">
-        <img class="calicontent" src="../../assets/images/BR/Screen Shot 2020-03-17 at 4.04.46 PM.png">
-        <img class="calicontent" src="../../assets/images/BR/Screen Shot 2020-03-17 at 4.05.43 PM.png">
-
+        <div id="myModal" class="modal">
+            <span class="close">
+                <p>X</p>
+            </span>
+            <img class="modal-content" id="img01" style="height: 500px;">
+            <div id="caption"></div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img class="calicontent"
+                    src="../../assets/images/BR/Screen Shot 2020-03-17 at 4.03.55 PM.png" alt=""
+                    onclick="expandimg(this);">
+            </div>
+            <div class="column">
+                <img  class="calicontent"
+                    src="../../assets/images/BR/Screen Shot 2020-03-17 at 4.04.46 PM.png" alt=""
+                    onclick="expandimg(this);">
+            </div>
+            <div class="column">
+                <img class="calicontent" src="../../assets/images/BR/Screen Shot 2020-03-17 at 4.05.43 PM.png" alt=""
+                    onclick="expandimg(this);">
+                <br>
+            </div>
+        </div>
     </div>
     </section>
     </div>
+
     <footer>
-        <div class="container">
+        <div class="fcontainer">
             © 2020 CELIA ETTINGER. ALL RIGHTS RESERVED.
             <br>
             <a href="https://www.linkedin.com/in/celia-ettinger-61093b94/">
@@ -92,15 +118,8 @@
                 <i class="fab fa-instagram-square fa-3x"></i></a>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

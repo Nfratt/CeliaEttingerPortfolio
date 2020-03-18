@@ -8,6 +8,7 @@
   text-decoration: underline;
   font-weight: 300;
 }  
+
 #logo:hover{
   color:#EABDBD ;
 }
@@ -39,7 +40,7 @@ body{
     background-image: linear-gradient(to bottom right, #ECE8E7,#fffefb);
 }
 
-#main-container{
+#mc2{
     margin: 5%;
     background-image: linear-gradient(to bottom right,#fffefb, #ECE8E7);
     padding-bottom: 1%;
@@ -61,7 +62,6 @@ color: black ;
 background-color:lightgray;
 border-radius: 10px;
 height: 50px;
-
 }
 .watchmore{
   font-family: 'Prata';
@@ -70,7 +70,6 @@ height: 50px;
   margin-right: auto;
   width:65%;
 }
-
 .seemore{
   font-family: 'Prata';
   display: block;
@@ -89,7 +88,6 @@ opacity: .5;
 .vcontent2{
   height:500px;
   width:400px;
-
 }
 .vcontent2:hover{
 opacity: .5;
@@ -100,8 +98,10 @@ opacity: .5;
   width: auto;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
   margin-bottom: 1%;
+  cursor: pointer;
+
 }
 .calicontent:hover{
 opacity: .5;
@@ -113,16 +113,94 @@ opacity: .5;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1%;
-
+  cursor: pointer;
 }
 .calicontent2:hover{
 opacity: .5;
 }
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(211,211,211); /* Fallback color */
+  background-color: rgba(211,211,211,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 50%;
+
+}
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: black;
+  padding: 10px 0;
+  height: 300px;
+  font-size: x-large;
+  font-family: 'prata';
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close :p{
+  color: white;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* watch videos */
 /* column 1 of portfolio*/
 .content{
   height: 200px;
   width: 300px;
+  margin-bottom: 1%;
 }
 .content:hover{
 opacity: .5;
@@ -132,6 +210,7 @@ opacity: .5;
 .content2{
   height:200px;
   width:300px;
+  margin-bottom: 1%;
 
 }
 .content2:hover{
@@ -150,10 +229,15 @@ footer {
     height: 150px;
     
   }
-  footer .container{
+  footer .fcontainer{
       margin-top: 2%;
   }
   footer i{
       color: black;
       margin: 1%;
   }
+  /* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }}
