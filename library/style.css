@@ -81,11 +81,9 @@ height: 50px;
 .vcontent{
   height: 500px;
   width: 400px;
-
 }
 .vcontent:hover{
 opacity: .5;
-
 }
 /* column 2 of see more */
 .vcontent2{
@@ -96,12 +94,35 @@ opacity: .5;
 .vcontent2:hover{
 opacity: .5;
 }
+/* DSG */
+.calicontent{
+  height: 500px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+.calicontent:hover{
+opacity: .5;
+}
+.calicontent2{
+  height:500px;
+  width:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+
+}
+.calicontent2:hover{
+opacity: .5;
+}
 
 /* column 1 of portfolio*/
 .content{
   height: 200px;
   width: 300px;
-
 }
 .content:hover{
 opacity: .5;
