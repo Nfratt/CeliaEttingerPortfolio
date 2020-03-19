@@ -136,3 +136,26 @@ footer {
   i:hover{
     color: #C89B9B;
   }
+
+
+  @media only screen and (max-width: 640px) {
+    nav{margin-right: 10%;}
+    iframe{height: 100%;
+   width:90% ;}
+   .content{width: 100%;}
+   .content2{width: 100%;}
+   .content3{width: 100%;}
+   .calicontent{height: 100%;
+   width: 100%;}
+   #mc2{height: 95%;
+  width: 100%;
+margin: auto;
+   }
+  .contain{margin: auto;}
+.fcontainer{padding-top: 1%;}}
+ 
+   /* 100% Image Width on Smaller Screens */
+ @media only screen and (max-width: 700px){
+   .modal-content {
+     width: 100%;
+   }}

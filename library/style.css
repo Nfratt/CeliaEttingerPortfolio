@@ -133,6 +133,10 @@ opacity: .5;
   background-color: rgb(211,211,211); /* Fallback color */
   background-color: rgba(211,211,211,0.5); /* Black w/ opacity */
 }
+iframe{
+  height: 720px;
+  width: 1280px;
+}
 
 /* Modal Content (image) */
 .modal-content {
@@ -236,6 +240,18 @@ footer {
       color: black;
       margin: 1%;
   }
+  @media only screen and (max-width: 640px) {
+   iframe{height: 100%;
+  width:90% ;}
+  .content{width: 100%;}
+  .content3{height: 91.88px;
+  width: 48.63px;}
+  .calicontent{height: 100%;
+  width: 100%;}
+
+
+}
+
   /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
