@@ -18,7 +18,8 @@
     <link rel="manifest" href="../../assets/images/favicon/site.webmanifest">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
-
+    <!--Javascript -->
+    <script src="../../assets/Scripts/Javascript.js"></script>
 </head>
 
 <body>
@@ -59,25 +60,42 @@
     </div>
 
     <div class="seemore">
-        <h1>See more OLAY</h1>
-        <hr>
-        <!-- videos --> 
+        <h1>View More OLAY</h1>
+        <hr style="width: 100%; color: black; height: 1px; background-color:lightgrey;" />
+        <br>
+        <!-- images -->
         <!-- set to 2 per row -->
         <!-- row1 -->
-         <img class="vcontent"
-                src="../../assets/images/Olay/Olay_Vogue_1.jpg">
-    <img class="vcontent2"
-                src="../../assets/images/Olay/Olay_Vogue_10.jpg">
-        <!-- row2 -->
-       <img class="vcontent"
-                src="../../assets/images/Olay/Olay_Vogue_11.jpg">
-        <img class="vcontent2"
-                src="../../assets/images/Olay/Olay_Vogue_3.jpg">
-        <!-- row 3   -->
-      <img class="vcontent"
-                src="../../assets/images/Olay/Olay_Vogue_4.jpg">
+        <div id="myModal" class="modal">
+            <span class="close">
+                <p>X</p>
+            </span>
+            <img class="modal-content" id="img01" style="height: 500px;">
+            <div id="caption"></div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img class="calicontent" src="../../assets/images/Olay/Olay_Vogue_1.jpg" alt="LILY SINGH"
+                    onclick="expandimg(this);">
+            </div>
+            <div class="column">
+                <img class="calicontent" src="../../assets/images/Olay/Olay_Vogue_10.jpg" alt="OLAY regenerist whip"
+                    onclick="expandimg(this);">
+            </div>
+            <div class="column">
+                <img class="calicontent" src="../../assets/images/Olay/Olay_Vogue_11.jpg" alt=""
+                    onclick="expandimg(this);">
+            </div>
+            <div class="column">
+                <img class="calicontent" src="../../assets/images/Olay/Olay_Vogue_3.jpg" alt="MAMA CAX"
+                    onclick="expandimg(this);">
+            </div>
+            <div class="column">
+                <img class="calicontent" src="../../assets/images/Olay/Olay_Vogue_4.jpg" alt="DENISE BIDOT"
+                    onclick="expandimg(this);">
+            </div>
+        </div>
     </div>
-
 
     </section>
     </div>
