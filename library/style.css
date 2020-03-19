@@ -241,16 +241,21 @@ footer {
       margin: 1%;
   }
   @media only screen and (max-width: 640px) {
-   iframe{height: 100%;
-  width:90% ;}
-  .content{width: 100%;}
-  .content3{height: 91.88px;
-  width: 48.63px;}
-  .calicontent{height: 100%;
-  width: 100%;}
-
-
-}
+    nav{margin-right: 10%;}
+    iframe{height: 100%;
+   width:90% ;}
+   .content{width: 100%;}
+   .content2{width: 100%;}
+   .content3{width: 100%;}
+   .calicontent{height: 100%;
+   width: 100%;}
+   #mc2{height: 95%;
+   width: 100%;
+   margin: auto;
+   }
+  .contain{margin: auto;}
+.fcontainer{padding-top: 1%;}}
+ 
 
   /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
