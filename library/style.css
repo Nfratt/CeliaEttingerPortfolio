@@ -220,6 +220,7 @@ opacity: .5;
 .content2:hover{
 opacity: .5;
 }
+/* .modal-content{height: 500px;} */
 footer {
     margin-top: 13%;
     clear: both;
@@ -231,7 +232,7 @@ footer {
     #FAD7D7
    ;
     height: 150px;
-    
+  
   }
   footer .fcontainer{
       margin-top: 2%;
@@ -254,7 +255,10 @@ footer {
    margin: auto;
    }
   .contain{margin: auto;}
-.fcontainer{padding-top: 1%;}}
+.fcontainer{padding-top: 1%;}
+/* .modal-content{height: 50%;
+width: 100%;}*/
+  }
  
 
   /* 100% Image Width on Smaller Screens */
