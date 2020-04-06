@@ -39,6 +39,9 @@ nav a {
 body{
     background-image: linear-gradient(to bottom right, #ECE8E7,#fffefb);
 }
+body p{
+  font-size: 16px;
+}
 
 #mc2{
     margin: 5%;
