@@ -1,13 +1,13 @@
 /* logo at top */
-*{font-size: -15%!important;}
+
 #logo{
   font-family: 'Prata' ;
-  font-size: xX-large;
+  font-size: large;
   color: #5F5F5F;
   text-align: center;
   margin-top: 2%;
   text-decoration: underline;
-  font-weight: 300;
+  font-weight: 285;
 }  
 
 #logo:hover{
@@ -16,10 +16,8 @@
 nav {
   font-family: 'Prata' ;
   margin-top: 25px;
-  font-size:200% ;
   text-align: center;
   color: #5F5F5F;
-  
 }
 nav a:hover{
   color: #EABDBD;
