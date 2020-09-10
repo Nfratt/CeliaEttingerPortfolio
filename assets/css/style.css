@@ -1,7 +1,8 @@
 /* logo at top */
+
 #logo{
     font-family: 'Prata' ;
-    font-size: xX-large;
+    font-size: x-large;
     color: #5F5F5F;
     text-align: center;
     margin-top: 2%;
@@ -13,8 +14,8 @@
 /* Navbar */
   nav {
     font-family: 'Prata' ;
-    margin-top: 25px;
-    font-size:200% ;
+    margin-top: 20px;
+    font-size:185% ;
   text-align: center;
     color: #5F5F5F;
     
