@@ -3,25 +3,25 @@
 #logo{
   font-family: 'Prata' ;
   font-size:x-large;
-  color: #5F5F5F;
+  color: black;
   text-align: center;
   margin-top: 2%;
   text-decoration: underline;
   font-weight: 300;
 }  
 
-#logo:hover{
+/* #logo:hover{
   color:#EABDBD ;
-}
+} */
 nav {
   font-family: 'Prata' ;
   margin-top: 25px;
   text-align: center;
-  color: #5F5F5F;
+  color: black;
   font-size: 185%;
 }
 nav a:hover{
-  color: #EABDBD;
+  color: #5F5F5F;
 }
 nav a {
   font-family: 'Prata' ;
@@ -29,23 +29,23 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #5F5F5F;
+  color: black;
   text-decoration: none;
   border-left: 1px solid #efefef;
   ;
 }
 
 /* background coloring */
-body{
+/* body{
     background-image: linear-gradient(to bottom right, #ECE8E7,#fffefb);
-}
+} */
 body p{
   font-size: 16px;
 }
 
 #mc2{
-    margin: 5%;
-    background-image: linear-gradient(to bottom right,#fffefb, #ECE8E7);
+     margin: 5%;
+    /* background-image: linear-gradient(to bottom right,#fffefb, #ECE8E7); */
     padding-bottom: 1%;
     padding-top: 1%;
 }
@@ -58,14 +58,14 @@ iframe{
   font-family: 'Prata';
   text-align: center;
 }
-#nextbtn{float: right;
+/* #nextbtn{float: right;
 margin-top: 1%;
 font-family: 'Prata';
 color: black ;
 background-color:lightgray;
 border-radius: 10px;
 height: 50px;
-}
+} */
 .watchmore{
   font-family: 'Prata';
   display: block;
@@ -230,10 +230,8 @@ footer {
     color: BLACK;
     font-family: 'Prata';
     text-align: center;
-    background: lightgray;
-    border-top: 25px solid 	
-    #FAD7D7
-   ;
+    background: white;
+    border-top: 25px solid black;
     height: 150px;
   
   }
