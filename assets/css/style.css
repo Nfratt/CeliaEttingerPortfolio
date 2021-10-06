@@ -20,9 +20,9 @@
     color: black;
     
   }
-  /* nav a:hover{
-    color: #EABDBD;
-  } */
+  nav a:hover{
+    color: #5F5F5F;
+  }
   nav a {
     font-family: 'Prata' ;
     display: inline-block;
