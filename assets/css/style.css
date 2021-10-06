@@ -93,7 +93,7 @@ body{
 
 #mc2{
   margin:5%;
-    height: 300px;
+    height: auto;
     background-image: linear-gradient(to bottom right, #fffefb,#ECE8E7);
     font-family: 'Prata' ;
     padding: 2%;
@@ -105,7 +105,6 @@ body{
 }
 /* ABOUT page */
 .about{
-
 text-align: center;
 
 }
@@ -118,6 +117,10 @@ text-align: center;
   margin-left: auto;
   margin-right: auto;
 
+}
+.celia-img{
+  width: 100%;
+  height: auto;
 }
 
 
